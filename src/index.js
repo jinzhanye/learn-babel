@@ -31,7 +31,7 @@ new Promise((r) => {
 
 Array.from('1,2,3,4')
 
-async function asyncFn() {
+async function myAsyncFn() {
   await new Promise((r) => {
     r(1)
   });
