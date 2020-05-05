@@ -1,4 +1,6 @@
-const fn = () => 1;
+(() => {
+  console.log('hello world')
+})()
 
 class Foo {
   getName() {
@@ -6,11 +8,7 @@ class Foo {
   }
 }
 
-[1, 2, 3].includes(3)
-
-Object.assign({}, {
-  a: 123
-})
+[1, 2, 3].findIndex((item) => item === 1)
 
 new Promise((r) => {
   r(1)
@@ -20,4 +18,8 @@ async function myAsyncFn() {
   await new Promise((r) => {
     r(1)
   });
+}
+
+export default {
+  Foo,
 }

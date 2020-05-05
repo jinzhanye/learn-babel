@@ -3,6 +3,8 @@ module.exports = {
     [
       "@babel/env",
       {
+        loose: true,
+        modules: false,
         "targets": {
           "ie": "9"
         },
