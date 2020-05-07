@@ -18,6 +18,7 @@ new Promise((r) => {
 
 async function myAsyncFn() {
   console.log(1)
+  console.log(2)
   await new Promise((r) => {
     r(1)
   });
