@@ -1,0 +1,3 @@
+[submodule "SpringBootDemo"]
+	path = SpringBootDemo
+	url = git@github.com:jinzhanye/SpringBootDemo.git
